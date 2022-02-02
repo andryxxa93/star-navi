@@ -30,10 +30,6 @@ const MainPage: FC = () => {
   }, [])
 
   useEffect(() => {
-    console.log('render');
-  })
-
-  useEffect(() => {
     if (!start || !data.length) {
       return
     }

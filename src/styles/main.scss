@@ -1,0 +1,30 @@
+.main {
+  padding: 2rem;
+  min-height: 100vh;
+  background: rgb(230, 230, 230);
+  display: flex;
+  &__cell {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &-control {
+      width: 25rem;
+      display: flex;
+      justify-content: space-around;
+    }
+    &-content {
+      max-width: 70vw;
+      margin-top: 4rem;
+    }
+  }
+  &__info {
+    width: 20vw;
+    height: 42rem;
+    margin-left: 5rem;
+    overflow: hidden;
+    &-content {
+      margin-top: 2.5rem;
+      list-style-type: none;
+    }
+  }
+}
